@@ -1,1 +1,2 @@
-# LeetCode---CSharp-Problems
+# LeetCode-CSharp-Problems
+My solutions for LeetCode problems
