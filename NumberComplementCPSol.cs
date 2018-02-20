@@ -28,9 +28,9 @@ namespace NumberComplementCP
 				Console.WriteLine("Current n: {0}", onesTracker);
 			}
 
-			// Get the number whose binary version has the same bit size as num, but made out of 1's
-			// Do this by shifting the binary version of lastOneOfNum to the left by one bit, increasing the bit size by 1.
-			// Then subtract lastOneOfNum with 1, which will change all the 0's to 1 with the bit size the same as num, 
+			// Get the number whose binary version is made out of 1's
+			// Do this by shifting the binary version of lastOneOfNum to the left by one bit.
+			// Then subtract lastOneOfNum with 1, which will change all the 0's to 1, 
 			// since lastOneOfNum had only one far left 1. Lastly, find the binary difference between that number and num, 
 			// this is our complement
 			// for ex: 	num = 5 (101), lastOneOfNum = 4 (100)
